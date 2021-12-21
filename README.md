@@ -32,7 +32,7 @@ Demo
     - 'demo_AOS.m' -- the AOS scheme.
     - 'demo_FED.m' -- the AOS scheme.
     - 'demo_Explicit.m' -- the AOS scheme. 
-  - batchtest:
+  - batchtest: (test the 30 natural noisy images)
     - 'batchtest_AOS.m'
     - 'batchtest_FED.m'
     - 'batchtest_Explicit.m'
