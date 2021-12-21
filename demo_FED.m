@@ -1,6 +1,10 @@
 clear; close all;
 addpath('tools');
 
+% the choice of parameters are given in './parameter/2021_FED'
+% from left to right: [], image_name, std_n, sigma, K1, PSNR, iter
+
+
 %     model, img_name, std_n, sigma, k, PSNR, M
 img   = 'lena'; % image_name
 std_n = 40; % std_n

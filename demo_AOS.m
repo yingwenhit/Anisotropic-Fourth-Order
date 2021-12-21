@@ -2,7 +2,9 @@
 clear; close all;
 addpath('tools');
 
-
+% the choice of parameters are given in './parameter/2021_AOS'
+% from left to right: [], image_name, std_n, sigma, K1, PSNR, iter
+    
 img   = 'lena'; % image_name
 std_n = 40; % std_n
 sigma = 0.5; % sigma

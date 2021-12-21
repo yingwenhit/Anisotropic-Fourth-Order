@@ -1,6 +1,9 @@
 clear all; close all;
 addpath('tools');
 
+% the choice of parameters are given in './parameter/2021_explicit'
+% from left to right: [], image_name, std_n, sigma, K1, PSNR, iter
+
 img   = 'lena'; % image_name
 std_n = 40; % std_n
 sigma = 1; % sigma
